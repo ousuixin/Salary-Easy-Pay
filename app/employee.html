@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>employee page</title>
+</head>
+<body>
+
+	<fieldset id="index_page">
+		<legend><a href="./index.html" id="home_page"><img src="./img/home.png"></a><h1>Salary Easy pay</h1></legend>
+		<div id="function_page">
+			<div id="employee_message">
+				<h2>employee message</h2>
+				<div>
+					<p>your address: </p><input class="input_control" type="text" v-model="employee.address">
+					<p>password: </p><input class="input_control" type="password" v-model="employee.password">
+					<p>balance: {{employee.balance}}</p>
+					<button class="button_control" @click = "check_balance">check balance</button>
+				</div>
+			</div>
+			<div id="contract_message">
+				<h2>contract message</h2>
+				<div>
+					<p>address of contract: </p><input class="input_control" type="text" v-model="contract.address">
+					<button class="button_control" @click="get_salary">get salary</button>
+					<p>salary per week(wei):</p><input class="input_control" type="text" readonly="readonly" style="cursor: default; border: 0px;" v-model="contract.salary">
+					<p>salary pay period(week):</p><input class="input_control" type="text" readonly="readonly" style="cursor: default; border: 0px;" v-model="contract.pay_period">
+					<p>deposit in contract:</p><input class="input_control" type="text" readonly="readonly" style="cursor: default; border: 0px;" v-model="contract.deposit">
+					<button class="button_control" @click = "check_message">check message</button>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+body {
+  font-size: 16px;
+  font-family: Ubuntu, simHei, sans-serif;
+
+  background-color: white;
+}
+
+span {
+  color: #FB753F;
+}
+
+h1 {
+  color: #00AA61;
+  font-weight: normal;
+  float: left;
+}
+
+h2 {
+  color: #181c1f;
+  font-weight: normal;
+}
+
+img {
+  margin-left: 10px;
+  margin-top: 37.7px;
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+/*-----------------------------------------------------*/
+.input_control {
+  margin: 5px auto;
+}
+
+#function_page input {
+  box-sizing: border-box;
+  width:400px;
+  height: 40px;
+  border-radius: 4px;
+  border:2px solid #c8cccf;
+  color: #5a5f57;
+  -web-kit-appearance: none;
+  -moz-appearance: none;
+  display: block;
+  outline: 0;
+  padding: 0 10px;
+  text-decoration: none;
+  width: 440px;
+}
+
+input:hover {
+  box-shadow: inset 0px 0px 13px #c8cccf;
+  opacity: 0.8;
+}
+
+input:focus {
+  box-shadow: inset 0px 0px 13px #999;
+  opacity: 0.8;
+}
+
+#checkbox {
+  display: inline;
+}
+
+/*-----------------------------------------------------*/
+.button_control{
+  width:440px;
+  margin:10px auto;
+}
+
+button {
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+  border:2px solid #c8cccf;
+  color: #FFFFFF;
+  background-color: #00AA61;
+  -web-kit-appearance: none;
+  -moz-appearance: none;
+  display: block;
+  outline: 0;
+  padding: 0 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+button:hover {
+  border: 1px solid #c8cccf;
+  box-shadow: inset 1px 1px 2px 1px #c8cccf;
+  opacity: 0.8;
+}
+
+
+/*-----------------------------------------------------*/
+h1 {
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+legend {
+  width: 300px;
+}
+
+fieldset {
+  border: 1px solid #BCBCBC;
+  padding: 0px;
+  background-color: white;
+}
+
+
+/*-----------------------------------------------------*/
+#function_page {
+  margin: 0px auto;
+  float: left;
+}
+
+#employer_message p, 
+#contract_message p {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#employer_message h2, 
+#contract_message h2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+#employer_message, #contract_message {
+  width: 500px;
+  margin: 0px auto;
+  border: 1px solid #BCBCBC;
+
+  padding: 20px;
+  background-color: white;
+}
+
+
+/*-----------------------------------------------------*/
+#contract_page {
+  margin: 0px auto;
+  float: left;
+}
+
+#contract_list {
+  width: 500px;
+  margin: 0px auto;
+  border: 1px solid #BCBCBC;
+
+  padding: 20px;
+  background-color: white;
+}
+
+#contract_list p {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 390px;
+  float: left;
+}
+
+#contract_list h2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#contract_list #checkbox {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  text-align: top;
+  float: left;
+}
+
+#contract_list input {
+  box-sizing: border-box;
+  width:400px;
+  height: 40px;
+  border-radius: 4px;
+  border:2px solid #c8cccf;
+  color: #5a5f57;
+  -web-kit-appearance: none;
+  -moz-appearance: none;
+  display: block;
+  outline: 0;
+  padding: 0 10px;
+  text-decoration: none;
+  width: 440px;
+
+  margin-bottom: 25px;
+}
+
+/*-----------------------------------------------------*/
+#index_page {
+  width: 1084px;
+  margin: 0px auto;
+}
+

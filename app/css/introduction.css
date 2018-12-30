@@ -1,0 +1,62 @@
+body {
+  padding: 100px;
+
+  font-size: 16px;
+  font-family: Ubuntu, simHei, sans-serif;
+
+  background-color: white;
+}
+
+h1, h2 {
+  color: #00AA61;
+  font-weight: normal;
+}
+
+h1 {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  vertical-align: top;
+}
+
+ul {
+  margin: 0px;
+}
+
+li {
+  color: #585c5f;
+  width: 500px;
+  list-style-type: square;
+  font-size: 24px;
+}
+
+a {
+  color: #00AA61;
+  text-decoration:none;
+}
+
+li {
+  padding: 10px;
+}
+
+li:hover,li:focus {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 0 13px #999 inset;
+}
+
+#index_page {
+  width: 600px;
+  margin: 0px auto;
+}
+
+
+fieldset {
+  border: 2px solid #BCBCBC;
+  padding: 20px;
+  background-color: white;
+}
